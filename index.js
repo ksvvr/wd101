@@ -45,6 +45,8 @@ const dispEntries = () => {
     details.innerHTML = table;
 }
 
+dispEntries();
+
 const formSubmit = (event) => {
     event.preventDefault();
     const name = document.getElementById("name").value;
